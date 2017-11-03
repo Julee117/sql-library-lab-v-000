@@ -20,7 +20,7 @@ CREATE TABLE books
 CREATE TABLE characters
   (id INTEGER PRIMARY KEY,
   name TEXT,
-  species TEXT, 
+  species TEXT,
   motto TEXT,
   series_id INTEGER,
   author_id INTEGER);
