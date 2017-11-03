@@ -1,0 +1,5 @@
+INSERT INTO series (id, title, authod_id, subgenre_id) VALUES 
+(1, "Dragon Heart", )
+
+INSERT INTO books (id, title, year, series_id) VALUES 
+()
