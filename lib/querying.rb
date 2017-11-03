@@ -14,7 +14,7 @@ end
 
 
 def select_value_and_count_of_most_prolific_species
-  "SELECT characters.species, COUNT(characters.species) AS total
+  "SELECT characters.species, COUNT(characters) AS total
   FROM characters
   GROUP BY characters.species
   HAVING MAX(total);"
